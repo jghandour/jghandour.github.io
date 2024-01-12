@@ -13,25 +13,25 @@ tags:
 I’ve been using [Maven](http://maven.apache.org/) for quite some time, and always end up forgetting these very useful commands. Figured that posting them here would help us all out!
 
 ### Dependency Plugin
-  {% highlight shell %}
-  mvn dependency:analyze
-  mvn dependency:tree
-  {% endhighlight %}
+{% highlight shell %}
+mvn dependency:analyze
+mvn dependency:tree
+{% endhighlight %}
  
 ### Help Plugin
-  {% highlight shell %}
-  mvn help:effective-pom
-  {% endhighlight %}
+{% highlight shell %}
+mvn help:effective-pom
+{% endhighlight %}
 
 ### Release Plugin
-  {% highlight shell %}
-  mvn –batch-mode release:prepare release:perform -DpreparationGoals=clean -Darguments=”-Dmaven.test.skip=true”
-  {% endhighlight %}
+{% highlight shell %}
+mvn –batch-mode release:prepare release:perform -DpreparationGoals=clean -Darguments=”-Dmaven.test.skip=true”
+{% endhighlight %}
 
 ### Versions Plugin
-  {% highlight shell %}
-  mvn versions:display-dependency-updates
-  mvn versions:display-plugin-updates
-  mvn versions:display-property-updates
-  mvn -N versions:update-child-modules -DgenerateBackupPoms=false
-  {% endhighlight %}
+{% highlight shell %}
+mvn versions:display-dependency-updates
+mvn versions:display-plugin-updates
+mvn versions:display-property-updates
+mvn -N versions:update-child-modules -DgenerateBackupPoms=false
+{% endhighlight %}

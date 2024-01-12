@@ -11,7 +11,7 @@ categories:
 I take pride in the cleanliness of my code. One of the major ways to ensure my code is in fact clean is to use a static code analysis tool. [SonarQube](http://www.sonarqube.org/) (formerly known as Sonar) is definitely my go to tool for this. Below are the steps I follow to integrate with SonarQube.   
  In the maven pom.xml I add the sonar plugin, and properties it requires:
 
-```
+{% highlight xml %}
 <pre class="brush: xml; title: ; notranslate" title="">
 <!-- Properties Section -->
 <sonar.language>java</sonar.language>
@@ -22,15 +22,16 @@ I take pride in the cleanliness of my code. One of the major ways to ensure my c
 	<artifactId>sonar-maven-plugin</artifactId>
 	<version>3.0.1</version>
 </plugin>
-```
+{% endhighlight %}
 
- Then to run it: ```
+Then to run it:
+{% highlight xml %}
 <pre class="brush: bash; title: ; notranslate" title="">
 mvn sonar:sonar
-```
+{% endhighlight %}
 
- Now if you connect your SonarQube server (http://localhost:9000) you see the results of your run. One thing notably missing is the test coverage results. In addition to analyzing code it has the ability to display test coverage. Ideally these coverage metrics, in addition to being aggregated can be broken down into unit vs. integration test coverage. Here is how I generally configure it: ```
-<pre class="brush: xml; title: ; notranslate" title="">
+Now if you connect your SonarQube server (http://localhost:9000) you see the results of your run. One thing notably missing is the test coverage results. In addition to analyzing code it has the ability to display test coverage. Ideally these coverage metrics, in addition to being aggregated can be broken down into unit vs. integration test coverage. Here is how I generally configure it: 
+{% highlight xml %}
 <!-- Properties Section -->
 <sonar.junit.reportsPath>${project.build.directory}/surefire-reports</sonar.junit.reportsPath>
 <sonar.jacoco.reportPath>${project.build.directory}/jacoco.exec</sonar.jacoco.reportPath>
@@ -139,13 +140,14 @@ mvn sonar:sonar
 	</plugins>
     </reporting>
 </profile>
-```
+{% endhighlight %}
 
  Now to analyze your code including test coverage with sonar you need to run two commands: ```
-<pre class="brush: bash; title: ; notranslate" title="">
+{% highlight shell %}
 mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Pcoverage
 mvn sonar:sonar
-```
+{% endhighlight %}
+
 
  Finally, refresh the page on the SonarQube server and check out the coverage test results in addition to the standard analysis!   
    
