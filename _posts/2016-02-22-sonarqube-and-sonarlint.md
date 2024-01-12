@@ -25,7 +25,6 @@ I take pride in the cleanliness of my code. One of the major ways to ensure my c
 
 Then to run it:
 {% highlight xml %}
-<pre class="brush: bash; title: ; notranslate" title="">
 mvn sonar:sonar
 {% endhighlight %}
 
