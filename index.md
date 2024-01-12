@@ -41,6 +41,6 @@ ___
 - Outstanding Organizational Skills: The more organized we are, the more time we can spend working on the problem at hand, focusing on the customer’s needs
 - Proven Problem Solvers: By following proven methods for solving problems we can ensure consistency in the development and delivery of software
 - Passion: Developing quality software is not just scientific; it is an art. This artistic expression can only be fully realized with passion
-- Constant Learning: If we want to succeed and surpass our own expectations and milestones, we need to be constantly improving and knowledge and skills
+- Constant Learning: If we want to succeed and surpass our own expectations and milestones, we need to be constantly improving our knowledge and skills
 
 ___
