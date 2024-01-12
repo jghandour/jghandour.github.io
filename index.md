@@ -2,7 +2,7 @@
 layout: page
 ---
 
-### We have experience working with the largest financial Intermediaries, telecommunications providers, and healthcare processors to the smallest and most elementary of startups.
+## We have experience working with the largest financial Intermediaries, telecommunications providers, and healthcare processors to the smallest and most elementary of startups.
 
 Some of our most notable projects include:
 
