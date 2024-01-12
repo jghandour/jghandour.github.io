@@ -13,18 +13,16 @@
 /* BASE RULES */
 /**************/
 
-html, body {
+html {
   background: #111 url('images/bg.gif') left top repeat-x;
   color: $lightGray;
-}
-
-html {
   font-size: 100%;
 }
 
 body {
-  font: 18px/1.4 $helvetica;
+  background: #111 url('images/bg.gif') left top repeat-x;
   color: $lightGray;
+  font: 18px/1.4 $helvetica;
 }
 
 .container {
