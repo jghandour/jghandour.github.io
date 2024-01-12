@@ -1,5 +1,5 @@
 ---
-title: 'JAG''s Information Technology Services Inc.'
+title: ' '
 layout: page
 ---
 
