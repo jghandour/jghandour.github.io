@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## JAG’s Information Technology Services Inc. provides professional software development and consulting services. We are known for consistently delivering quality software, while meeting the budget and time requirements of our clients.
+JAG’s Information Technology Services Inc. provides professional software development and consulting services. We are known for consistently delivering quality software, while meeting the budget and time requirements of our clients.
 
 We have experience working with the largest financial Intermediaries, telecommunications providers, and healthcare processors to the smallest and most elementary of startups.
 
@@ -43,4 +43,3 @@ ___
 - Passion: Developing quality software is not just scientific; it is an art. This artistic expression can only be fully realized with passion
 - Constant Learning: If we want to succeed and surpass our own expectations and milestones, we need to be constantly improving our knowledge and skills
 
-___
