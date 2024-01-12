@@ -12,7 +12,6 @@ I take pride in the cleanliness of my code. One of the major ways to ensure my c
  In the maven pom.xml I add the sonar plugin, and properties it requires:
 
 {% highlight xml %}
-<pre class="brush: xml; title: ; notranslate" title="">
 <!-- Properties Section -->
 <sonar.language>java</sonar.language>
 <sonar.host.url>http://localhost:9000</sonar.host.url>
@@ -148,11 +147,13 @@ mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Pcoverage
 mvn sonar:sonar
 {% endhighlight %}
 
+ Finally, refresh the page on the SonarQube server and check out the coverage test results in addition to the standard analysis!    
 
- Finally, refresh the page on the SonarQube server and check out the coverage test results in addition to the standard analysis!   
-   
- **Note**: This example works well for a simple maven project, it would need to be tweaked for multi-module projects. My understanding is that main difference in a multi-module project is that you need to output to the same coverage report for the entire project, and not have a single report per module. - - - - - -
+ **Note**: This example works well for a simple maven project, it would need to be tweaked for multi-module projects. My understanding is that main difference in a multi-module project is that you need to output to the same coverage report for the entire project, and not have a single report per module. 
 
- In addition SonarQube server integration described above, the Sonar team have two plugins for IntelliJ IDEA. - [**SonarQube Community Plugin**](https://plugins.jetbrains.com/plugin/7238) This plugin connects to an existing SonarQube server and shows you outstanding issues from your local project. It is helpful when you are working with an existing server and working through and cleaning up some outstanding issues.
+___
+
+ In addition SonarQube server integration described above, the Sonar team have two plugins for IntelliJ IDEA. 
+- [**SonarQube Community Plugin**](https://plugins.jetbrains.com/plugin/7238) This plugin connects to an existing SonarQube server and shows you outstanding issues from your local project. It is helpful when you are working with an existing server and working through and cleaning up some outstanding issues.
 - [**SonarLint**](https://plugins.jetbrains.com/plugin/7973) This plugin does not require a SonarQube server, and instead does a local analysis of your current project. It is especially helpful when you do not have a SonarQube server to work with.
  

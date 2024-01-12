@@ -23,7 +23,7 @@ Enter same passphrase again: [Enter a passphrase]
 Your identification has been saved in /id_rsa_new_crap.
 Your public key has been saved in /id_rsa_new_crap.pub.
 The key fingerprint is:
-SHA256:0DLGGFFHxyvMO4sELjo2v/wXIdww9i93waSoltMJ0Vw james@localhost
+SHA256:<Some Value>james@localhost
 The key's randomart image is:
 +---[RSA 2048]----+
 |    oo+.+E.      |
