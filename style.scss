@@ -86,7 +86,7 @@ ul, ol {
   padding-left: 30px;
 }
 
-ul {
+ul li {
   background: transparent url('images/li_bullet1.gif') left .8em no-repeat;
   display: block;
   padding: .3em 0 .4em 20px;
@@ -102,7 +102,7 @@ ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul li li {
   background: transparent url('images/li_bullet2.gif') left .9em no-repeat;
   font-size: 95%;
   padding: .4em 0 .4em 12px;

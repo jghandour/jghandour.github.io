@@ -1,4 +1,5 @@
 ---
+title: 'JAG''s Information Technology Services Inc.'
 layout: page
 ---
 
