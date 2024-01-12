@@ -46,7 +46,7 @@ Finally, go into this file and change the home directory from HOME to the direct
 My preferred terminal emulator in cygwin is mintty. I create a mintty.bat file with the following content:
 {% highlight shell %}
 start c:\tools\cygwin\bin\mintty.exe -i /Cygwin-Terminal.ico -e c:\tools\cygwin\bin\bash.exe -login -i 
-{% endhighlight  %}
+{% endhighlight %}
 
 ### Bash Profile
 
