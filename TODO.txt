@@ -1,4 +1,4 @@
 - Styling
     - nav colours
-    - highlights dark theme
+    - footer
 - Quotes
