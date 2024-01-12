@@ -16,13 +16,12 @@
 
 html {
   background: #111 url('images/bg.gif') left top repeat-x;
-  color: $lightGray;
+  color: $gray;
   font-size: 100%;
 }
 
 body {
   background: #111 url('images/bg.gif') left top repeat-x;
-  color: $lightGray;
   font: 18px/1.4 $helvetica;
 }
 
@@ -57,17 +56,17 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: $gray;
+  //color: $gray;
 }
 
 h3 {
   font-size: 20px;
-  color: $gray;
+  //color: $gray;
 }
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  //color: $gray;
 }
 
 p {
