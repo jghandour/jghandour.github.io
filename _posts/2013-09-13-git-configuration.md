@@ -15,7 +15,7 @@ Another one of those tasks that I always do when starting at a new client is con
 
 1. Install Git (v2.0+), ideally via cygwin as described in my [Development Environment Setup](https://www.jagsits.com/blog/general/development-environment-setup/) instructions.
 2. Globally set my standard settings
-    {% highlight bash %}
+    {% highlight shell %}
     git config --global user.name "Firstname Lastname"
     git config --global user.email "email@domain.com"
     git config --global core.fileMode false
@@ -29,18 +29,18 @@ Another one of those tasks that I always do when starting at a new client is con
     git config --global fetch.prune true
     git config --global push.default current
     git config --global rerere.enabled 1
-    {% endhighlight bash %}
+    {% endhighlight %}
     
     Windows only:
-    {% highlight bash %}
+    {% highlight shell %}
     git config --global core.whitespace trailing-space,space-before-tab,cr-at-eol
     {% endhighlight %}
-3. Confirm settings ```
-   {% highlight bash %}
+3. Confirm settings
+   {% highlight shell %}
     git config --global --list
     {% endhighlight %}
-4. Globally set my standard aliases ```
-    {% highlight bash %}
+4. Globally set my standard aliases
+    {% highlight shell %}
     git config --global alias.st status
     git config --global alias.ci commit
     git config --global alias.co checkout
@@ -49,6 +49,6 @@ Another one of those tasks that I always do when starting at a new client is con
     git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;amp;lt;%an&amp;amp;gt;%Creset' --abbrev-commit"
     {% endhighlight %}
 5. Confirm aliases
-    {% highlight bash %}
+    {% highlight shell %}
     git config --get-regexp alias
     {% endhighlight %}
