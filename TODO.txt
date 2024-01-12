@@ -1,4 +1,4 @@
 - Styling
-    - heading white vs. gray etc.
-    - footer
+    - heading h1,h2,h3,h4 white vs. gray etc.
+    - Fonts
 - Quotes
