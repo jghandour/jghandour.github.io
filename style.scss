@@ -200,18 +200,6 @@ img {
   letter-spacing: 1px;
 }
 
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-  font-style: italic;
-  font-family: Lucida Grande, Lucida Sans, Verdana, Arial, sans-serif;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
