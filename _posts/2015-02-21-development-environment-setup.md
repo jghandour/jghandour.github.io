@@ -40,18 +40,17 @@ When starting at a new client I often have to setup my development environment f
  When installing cygwin it does not create a /etc/passwd file, so you have to do so yourself. ```
 {% highlight shell %}
 mkpasswd -c -p "$(cygpath -H)" > /etc/passwd 
- {% endhighlight %}
+{% endhighlight %}
 
  Finally, go into this file and change the home directory from HOME to the directory you want from /home/<login_name> to /cygdrive/c/users/<login_name># mintty
 
  My preferred terminal emulator in cygwin is mintty. I create a mintty.bat file with the following content: ```
 {% highlight shell %}
 start c:\tools\cygwin\bin\mintty.exe -i /Cygwin-Terminal.ico -e c:\tools\cygwin\bin\bash.exe -login -i
-```
-
+ {% endhighlight  %}
 # Bash Profile
 
- And of course, no development environment would be complete without a customized .bash\_profile, here is my bare bones version: ```
+And of course, no development environment would be complete without a customized .bash\_profile, here is my bare bones version: ```
 {% highlight shell %}
 # General
 PS1="\[\e[01;37m\][\t]-[\[\e[01;37m\u\e[01;37m\]]-[\[\e[01;37m\]${HOSTNAME%%.*}\[\e[01;37m\]]:\w\[\e[01;37m\]\n$ \[\e[0m\]"
