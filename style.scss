@@ -87,7 +87,11 @@ ul, ol {
 }
 
 ul {
-  list-style-type: disc;
+  background: transparent url('images/li_bullet1.gif') left .8em no-repeat;
+  display: block;
+  padding: .3em 0 .4em 20px;
+  font-size: 100%;
+  line-height: 1.5;
 }
 
 ol {
@@ -99,7 +103,9 @@ ol ul, ul ol, ul ul, ol ol {
 }
 
 ul ul, ol ul {
-  list-style-type: circle;
+  background: transparent url('images/li_bullet2.gif') left .9em no-repeat;
+  font-size: 95%;
+  padding: .4em 0 .4em 12px;
 }
 
 em, i {
