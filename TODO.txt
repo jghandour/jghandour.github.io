@@ -1,4 +1,4 @@
 - Styling
-    - nav colours
+    - heading white vs. gray etc.
     - footer
 - Quotes
