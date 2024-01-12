@@ -4,7 +4,6 @@ title: 'Development Environment Setup'
 date: '2015-02-21T00:41:17+00:00'
 author: 'James Ghandour'
 layout: post
-guid: 'https://www.jagsits.com/?p=32'
 permalink: /blog/general/development-environment-setup/
 categories:
     - General

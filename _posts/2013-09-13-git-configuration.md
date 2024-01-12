@@ -3,7 +3,6 @@ title: 'GIT Configuration'
 date: '2013-09-13T15:08:04+00:00'
 author: 'James Ghandour'
 layout: post
-guid: 'https://www.jagsits.com/?p=41'
 permalink: /blog/general/git-configuration/
 categories:
     - General

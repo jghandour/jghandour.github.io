@@ -4,7 +4,6 @@ title: 'SSH Configuration'
 date: '2015-03-17T12:55:43+00:00'
 author: 'James Ghandour'
 layout: post
-guid: 'https://www.jagsits.com/?p=88'
 permalink: /blog/general/ssh-configuration/
 categories:
     - General

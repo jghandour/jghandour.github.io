@@ -1,10 +1,8 @@
 ---
-id: 133
 title: 'SonarQube and SonarLint'
 date: '2016-02-22T13:23:39+00:00'
 author: 'James Ghandour'
 layout: post
-guid: 'https://www.jagsits.com/?p=133'
 permalink: /blog/general/sonarqube-and-sonarlint/
 categories:
     - General

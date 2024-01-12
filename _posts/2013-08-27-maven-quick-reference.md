@@ -1,10 +1,8 @@
 ---
-id: 17
 title: 'Maven Quick Reference'
 date: '2013-08-27T11:52:25+00:00'
 author: 'James Ghandour'
 layout: post
-guid: 'https://www.jagsits.com/?p=17'
 permalink: /blog/general/maven-quick-reference/
 categories:
     - General
