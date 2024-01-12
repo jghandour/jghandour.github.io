@@ -13,7 +13,7 @@ tags:
 
 When starting at a new client you generally have to remember passwords on a bunch of \*nix machines – dev, uat, prod and various others. I usually securely store those passwords somewhere and ideally never have to look them up again. Instead I distribute my public key to the appropriate servers so that I am never actually prompted for a password.
 
-1. If you don’t already have a private and public key created, now is the time to create one. On your desktop: ```
+1. If you don’t already have a private and public key created, now is the time to create one. On your desktop:
     {% highlight shell %}
     $ ssh-keygen 
     Generating public/private rsa key pair.
@@ -39,15 +39,15 @@ When starting at a new client you generally have to remember passwords on a bunc
     
     chmod 600 ~/.ssh/id_rsa
    {% endhighlight %}
-2. Publish your public key to the relevant servers. ```
+2. Publish your public key to the relevant servers.
    {% highlight shell %}
    ssh-copy-id -i ~/.ssh/id_rsa.pub <user>@<remote-host>
    {% endhighlight %}
-3. Attempt login to those relevant servers. ```
+3. Attempt login to those relevant servers.
    {% highlight shell %}
    ssh <user>@<remote-host>
    {% endhighlight %}
-4. Next I add aliases to my bash profile so that I don’t even have to remember the full server names. ```
+4. Next I add aliases to my bash profile so that I don’t even have to remember the full server names.
    {% highlight shell %}
-    alias sshServer='xtitle '\''<server>'\''; ssh <user>@<remote-host>'
+   alias sshServer='xtitle '\''<server>'\''; ssh <user>@<remote-host>'
    {% endhighlight %}
