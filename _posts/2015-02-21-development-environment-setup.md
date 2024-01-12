@@ -1,5 +1,4 @@
 ---
-id: 32
 title: 'Development Environment Setup'
 date: '2015-02-21T00:41:17+00:00'
 author: 'James Ghandour'
@@ -42,11 +41,11 @@ I install everything to **c:\\tools** and set environment variables accordingly.
 mkpasswd -c -p "$(cygpath -H)" > /etc/passwd 
 {% endhighlight %}
 
- Finally, go into this file and change the home directory from HOME to the directory you want from /home/<login_name> to /cygdrive/c/users/<login_name># mintty
+Finally, go into this file and change the home directory from HOME to the directory you want from /home/<login_name> to /cygdrive/c/users/<login_name># mintty
 
- My preferred terminal emulator in cygwin is mintty. I create a mintty.bat file with the following content:
+My preferred terminal emulator in cygwin is mintty. I create a mintty.bat file with the following content:
 {% highlight shell %}
-start c:\tools\cygwin\bin\mintty.exe -i /Cygwin-Terminal.ico -e c:\tools\cygwin\bin\bash.exe -login -i
+start c:\tools\cygwin\bin\mintty.exe -i /Cygwin-Terminal.ico -e c:\tools\cygwin\bin\bash.exe -login -i 
  {% endhighlight  %}
 
 ### Bash Profile

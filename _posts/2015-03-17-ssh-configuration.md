@@ -1,5 +1,4 @@
 ---
-id: 88
 title: 'SSH Configuration'
 date: '2015-03-17T12:55:43+00:00'
 author: 'James Ghandour'
