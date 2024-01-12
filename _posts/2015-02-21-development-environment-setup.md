@@ -13,14 +13,14 @@ tags:
 
 When starting at a new client I often have to setup my development environment from scratch.
 
-# Environment Variables
+### Environment Variables
 
- I install everything to **c:\\tools** and set environment variables accordingly.  
+I install everything to **c:\\tools** and set environment variables accordingly.  
 - JAVA\_HOME
 - MAVEN\_HOME
 - PATH
  
-# Cygwin
+### Cygwin
 
  One of the first things I do is install [64-bit cygwin](https://cygwin.com/setup-x86_64.exe). Included in cygwin, I select the latest versions of the following packages: - bash-completion
 - curl
@@ -35,7 +35,7 @@ When starting at a new client I often have to setup my development environment f
 - inetutils
 - jq
  
-# Cygwin config
+#### Cygwin config
 
  When installing cygwin it does not create a /etc/passwd file, so you have to do so yourself. 
 {% highlight shell %}
@@ -48,7 +48,8 @@ mkpasswd -c -p "$(cygpath -H)" > /etc/passwd
 {% highlight shell %}
 start c:\tools\cygwin\bin\mintty.exe -i /Cygwin-Terminal.ico -e c:\tools\cygwin\bin\bash.exe -login -i
  {% endhighlight  %}
-# Bash Profile
+
+### Bash Profile
 
 And of course, no development environment would be complete without a customized .bash\_profile, here is my bare-bones version: 
 {% highlight shell %}
