@@ -11,7 +11,7 @@
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
@@ -58,7 +58,7 @@ code {
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
 .highlight .nx { color: #555 } /* Name.Other */
 .highlight .py { color: #93A1A1 } /* Name.Property */
-.highlight .nt { color: #268BD2 } /* Name.Tag */
+.highlight .nt { color: $orange } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
 .highlight .ow { color: #859900 } /* Operator.Word */
 .highlight .w { color: #93A1A1 } /* Text.Whitespace */
