@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<div id="intro">#### We have experience working with the largest financial Intermediaries, telecommunications providers, and healthcare processors to the smallest and most elementary of startups.
+#### We have experience working with the largest financial Intermediaries, telecommunications providers, and healthcare processors to the smallest and most elementary of startups.
 
 Some of our most notable projects include:
 
@@ -13,10 +13,10 @@ Some of our most notable projects include:
 - Client Invoicing
 - Forensic Software Analysis
 - Miscellaneous prototypes and demos
- 
- </div>- - - - - -
 
-<div class="sectionContainer" id="what">## What do we provide? How and why do we provide it?
+___
+
+## What do we provide? How and why do we provide it?
 
 #### Philosophy
 
@@ -27,12 +27,12 @@ Some of our most notable projects include:
 #### Technological Proficiency
 
 - Our application development expertise is with Java and Groovy implementations
-- Database design and development using tradition RDMS (Oracle, SQL Server, MySQL, PostgreSQL) and NoSQL (Cassandra, Couchbase‎)
+- Database design and development using tradition RDMS (Oracle, SQL Server, MySQL, PostgreSQL) and NoSQL (Cassandra, Couchbase)
 - Continuous Integration software setup (Hudson/Jenkins, Bamboo, etc.)
- 
- </div>- - - - - -
 
-<div class="sectionContainer" id="why">## Why go with us instead of the next consulting group?
+___
+
+## Why go with us instead of the next consulting group?
 
 #### We only hire consultants with the following traits, since we feel they are crucial to the success of every project.
 
@@ -40,6 +40,5 @@ Some of our most notable projects include:
 - Proven Problem Solvers: By following proven methods for solving problems we can ensure consistency in the development and delivery of software
 - Passion: Developing quality software is not just scientific; it is an art. This artistic expression can only be fully realized with passion
 - Constant Learning: If we want to succeed and surpass our own expectations and milestones, we need to be constantly improving and knowledge and skills
- 
- </div>- - - - - -
 
+___
