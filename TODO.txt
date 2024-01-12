@@ -1,4 +1,5 @@
 - Styling
-    - heading h1,h2,h3,h4 white vs. gray etc.
+    - Horizontal Rule
     - Fonts
+    - Highlight colours?
 - Quotes
