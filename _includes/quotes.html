@@ -1,4 +1,7 @@
-<div class="quote">
+<div class="quotes">
+    <p id="quotation"></p>
+    <p id="author"></p>
+</div>
 
 <script>
     function Quote(quotation, author) {
@@ -36,6 +39,12 @@
 
     function getRandomQuote() {
         var index = Math.round(Math.random() * (quotes.length - 1));
-        return quotes[index];
+        var quote = quotes[index];
+
+        document.getElementById("quotation").innerText = quote.quotation;
+        document.getElementById("author").innerText = quote.author;
     }
+
+    getRandomQuote();
+    setInterval(getRandomQuote, 60000);
 </script>
