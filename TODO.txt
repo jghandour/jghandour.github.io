@@ -1,0 +1,4 @@
+- Styling
+    - nav colours
+    - highlights dark theme
+- Quotes
