@@ -1,5 +1,6 @@
 - Styling
+    - favicon
     - Horizontal Rule
     - Fonts
-    - Highlight colours?
+    - Highlight colouring?
 - Quotes
