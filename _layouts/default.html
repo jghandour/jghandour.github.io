@@ -33,16 +33,14 @@
     {{ content }}
 </div>
 
-<blockquote id="bqQuotes">
-    <p id="quotation"></p>
-    <a onclick="displayRandomQuote()" class="quoteNav">Next Quote</a>
-</blockquote>
+{% include quotes.html %}
 
 <div class="wrapper-footer">
     <div class="container">
         <footer class="footer">
-            <p>© 2024 - JAG's Information Technology Services Inc.</p><br>
             {% include svg-icons.html %}
+            <br>
+            © 2024 - JAG's Information Technology Services Inc.
         </footer>
     </div>
 </div>
