@@ -1,5 +1,5 @@
 - Styling
-    - Horizontal Rule
+    - Horizontal Rule (light gray)
     - Fonts
     - Highlight colouring?
 - Google Analytics

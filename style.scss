@@ -32,6 +32,10 @@ body {
   width: 100%;
 }
 
+hr {
+  background-color: $lightGray;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   //font-weight: bold;
