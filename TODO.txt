@@ -2,5 +2,6 @@
     - favicon
     - Horizontal Rule
     - Fonts
+    - Copywrite
     - Highlight colouring?
 - Quotes
