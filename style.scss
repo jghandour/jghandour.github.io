@@ -157,9 +157,7 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
 // .masthead
-//
 
 .wrapper-masthead {
   margin-bottom: 50px;
@@ -229,9 +227,7 @@ nav {
   }
 }
 
-//
-// .main
-//
+// Main
 
 .posts > .post {
   padding-bottom: 2em;
@@ -270,4 +266,31 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+// Quotes
+
+blockquote {
+  background: transparent   url('images/quote_bg.gif.gif')  left top no-repeat;
+  color: $gray;
+  display: block;
+  font-size: 150%;
+  font-style: italic;
+  line-height: 180%;
+  padding: 10px 40px 20px;
+  margin-top: 50px;
+  text-indent: 3em;
+  border-top: 3px solid $darkGray;
+  border-bottom: 5px solid $darkGray;
+}
+
+#content blockquote p {
+  font-family: 'Merriweather', serif;
+  font-size: 70%;
+  line-height: 1.8;
+}
+
+.quoteNav {
+  font-size: 80%;
+  float: right;
 }
