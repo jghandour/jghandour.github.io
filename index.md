@@ -4,6 +4,8 @@ layout: page
 
 ## JAG’s Information Technology Services Inc. provides professional software development and consulting services. We are known for consistently delivering quality software, while meeting the budget and time requirements of our clients.
 
+---
+
 We have experience working with the largest financial Intermediaries, telecommunications providers, and healthcare processors to the smallest and most elementary of startups.
 
 Some of our most notable projects include:
