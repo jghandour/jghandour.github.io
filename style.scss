@@ -227,6 +227,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
+  border-bottom: 2px solid $darkGray; // Same as HR
 }
 
 .posts > .post:last-child {
