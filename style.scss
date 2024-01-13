@@ -33,12 +33,12 @@ body {
 }
 
 hr {
-  background-color: $lightGray;
+  background-color: $darkGray;
+  border: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  //font-weight: bold;
   color: $lightGray;
 
   line-height: 1.7;
@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  font-weight: bold;
 
   a {
     color: inherit;
