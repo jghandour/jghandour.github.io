@@ -1,3 +1,2 @@
-- Horizontal Line Colour??
-- Highlight colouring?
+- Highlight colouring Tweaks
 - Google Analytics
