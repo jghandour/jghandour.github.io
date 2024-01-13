@@ -22,7 +22,7 @@ html {
 
 body {
   background: #111 url('assets/images/bg.gif') left top repeat-x;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $defaultFont;
 }
 
 .container {
@@ -39,7 +39,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $defaultFont;
   color: $lightGray;
 
   line-height: 1.7;
@@ -195,20 +195,10 @@ img {
   }
 }
 
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $georgia;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $defaultFont;
   font-size: 18px;
 
   @include mobile {
@@ -284,7 +274,7 @@ blockquote {
 }
 
 #content blockquote p {
-  font-family: $merriweather;
+  font-family: $defaultFont;
   font-size: 70%;
   line-height: 1.8;
 }
