@@ -1,1 +1,3 @@
 - Highlight colouring Tweaks
+- Google Analytics
+- Validate site etc.
