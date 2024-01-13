@@ -32,12 +32,6 @@ body {
   width: 100%;
 }
 
-hr {
-  height: 2px;
-  background-color: $darkGray;
-  border: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $defaultFont;
   color: $lightGray;
@@ -74,6 +68,12 @@ h4 {
 
 p {
   margin: 15px 0;
+}
+
+hr {
+  height: 2px;
+  background-color: $darkGray;
+  border: none;
 }
 
 a {
