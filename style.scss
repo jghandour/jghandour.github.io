@@ -8,13 +8,13 @@
 /**************/
 
 html {
-  background: $black url('assets/images/bg.gif') left top repeat-x;
+  //background: $black url('assets/images/bg.gif') left top repeat-x;
   color: $gray;
   font-size: 100%;
 }
 
 body {
-  //background: $black url('assets/images/bg.gif') left top repeat-x;
+  background: $black url('assets/images/bg.gif') left top repeat-x;
   font: 18px/1.4 $defaultFont;
 }
 
