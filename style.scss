@@ -197,7 +197,8 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  vertical-align: bottom;
+  margin-top: 100px; // @TODO: Vertically middle align
   font-family: $defaultFont;
   font-size: 18px;
 
@@ -218,7 +219,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $orange;
     }
   }
 }
