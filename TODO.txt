@@ -1,4 +1,3 @@
 - Validate site etc.
-- Google Analytics
 - Highlight colouring Tweaks
-
+- Proper ver
