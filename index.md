@@ -22,13 +22,13 @@ ___
 
 ## What do we provide? How and why do we provide it?
 
-#### Philosophy
+### Philosophy
 
 - User Focused: Strong technical solutions are important, but even more important is determining and meeting the needs of the end user
 - Pride in Architectural Design: Creating a solid foundation on which to build the rest of the project is the key to scalability, maintainability, and reliability
 - Standards based: There is no need to reinvent the wheel; someone has already solved the problems we are working on
  
-#### Technological Proficiency
+### Technological Proficiency
 
 - Our application development expertise is with Java and Groovy implementations
 - Database design and development using tradition RDMS (Oracle, SQL Server, MySQL, PostgreSQL) and NoSQL (Cassandra, Couchbase)
@@ -38,7 +38,7 @@ ___
 
 ## Why go with us instead of the next consulting group?
 
-#### We only hire consultants with the following traits, since we feel they are crucial to the success of every project.
+### We only hire consultants with the following traits, since we feel they are crucial to the success of every project.
 
 - Outstanding Organizational Skills: The more organized we are, the more time we can spend working on the problem at hand, focusing on the customer’s needs
 - Proven Problem Solvers: By following proven methods for solving problems we can ensure consistency in the development and delivery of software
