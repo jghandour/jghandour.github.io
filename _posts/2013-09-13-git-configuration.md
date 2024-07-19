@@ -27,6 +27,7 @@ git config --global pull.rebase true
 git config --global fetch.prune true
 git config --global push.default current
 git config --global rerere.enabled 1
+git config --global --add --bool push.autoSetupRemote true
 
 # Windows Only:
 git config --global core.whitespace trailing-space,space-before-tab,cr-at-eol
