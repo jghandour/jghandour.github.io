@@ -29,7 +29,7 @@ quotes.push(new Quote("Most good programmers do programming not because they exp
 quotes.push(new Quote("There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies", "C.A.R. Hoare"));
 quotes.push(new Quote("We are what we repeatedly do; excellence, then, is not an act but a habit.", "Aristotle"));
 quotes.push(new Quote("Simplicity and elegance are unpopular because they require hard work and discipline to achieve and education to be appreciated.", "Edsger Dijkstra"));
-
+quotes.push(new Quote("Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build, and test.", "Ray Ozzie"));
 //quotes.push(new Quote("The hardest single part of building a software system is deciding precisely what to build the most important function that software builders do for their clients is the iterative extraction and refinement of the product requirements. For the truth is, the clients do not know what they want. They usually do not know what questions must be answered, and they have almost never thought of the problem in the detail that must be specified.", "Fred Brooks"));
 
 function displayRandomQuote() {
