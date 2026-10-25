@@ -16,7 +16,11 @@
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    {% endif %}
+    <meta name="twitter:card" content="summary"/>
+    {% if site.footer-links.x %}
+    <meta name="twitter:site" content="@{{ site.footer-links.x }}"/>
     {% endif %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
