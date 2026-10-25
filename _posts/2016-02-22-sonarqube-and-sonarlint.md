@@ -8,7 +8,7 @@ categories:
     - General
 ---
 
-I take pride in the cleanliness of my code. One of the major ways to ensure my code is in fact clean is to use a static code analysis tool. [SonarQube](http://www.sonarqube.org/) (formerly known as Sonar) is definitely my go to tool for this. Below are the steps I follow to integrate with SonarQube.   
+I take pride in the cleanliness of my code. One of the major ways to ensure my code is in fact clean is to use a static code analysis tool. [SonarQube](https://www.sonarqube.org/) (formerly known as Sonar) is definitely my go to tool for this. Below are the steps I follow to integrate with SonarQube.   
  In the maven pom.xml I add the sonar plugin, and properties it requires:
 
 {% highlight xml %}

@@ -10,7 +10,7 @@ tags:
     - Maven
 ---
 
-I’ve been using [Maven](http://maven.apache.org/) for quite some time, and always end up forgetting these very useful commands. Figured that posting them here would help us all out!
+I’ve been using [Maven](https://maven.apache.org/) for quite some time, and always end up forgetting these very useful commands. Figured that posting them here would help us all out!
 
 ### Dependency Plugin
 {% highlight shell %}

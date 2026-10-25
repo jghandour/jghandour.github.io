@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    {% comment %}GitHub Pages titles pages from their first heading; the home page should just use the site name{% endcomment %}
+    {% if page.url != "/" %}{% assign page_title = page.title %}{% endif %}
+    <title>{% if page_title %}{{ page_title }} – {% endif %}{{ site.name }}</title>
     <meta charset="utf-8"/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
     <meta name="author" content="{{ site.name }}"/>
@@ -14,16 +16,15 @@
     <meta property="og:description" content="{{ site.description }}"/>
     {% endif %}
 
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta name="twitter:title" content="{{ page.title }}"/>
-    {% endif %}
+    <meta property="og:title" content="{{ page_title | default: site.name }}"/>
+    <meta name="twitter:title" content="{{ page_title | default: site.name }}"/>
+    <meta property="og:image" content="{{ site.url }}{{ site.avatar }}"/>
     <meta name="twitter:card" content="summary"/>
     {% if site.footer-links.x %}
     <meta name="twitter:site" content="@{{ site.footer-links.x }}"/>
     {% endif %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v={{ site.time | date: '%s' }}"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" >
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml"/>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
