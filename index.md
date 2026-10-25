@@ -31,7 +31,7 @@ ___
 ### Technological Proficiency
 
 - Our application development expertise is with Java and Groovy implementations
-- Database design and development using tradition RDMS (Oracle, SQL Server, MySQL, PostgreSQL) and NoSQL (Cassandra, Couchbase)
+- Database design and development using traditional RDBMS (Oracle, SQL Server, MySQL, PostgreSQL) and NoSQL (Cassandra, Couchbase)
 - Continuous Integration software setup (Hudson/Jenkins, Bamboo, etc.)
 
 ___
