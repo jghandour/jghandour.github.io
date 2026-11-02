@@ -1,5 +1,6 @@
 ---
 layout: page
+title: JAG's Information Technology Services Inc.
 ---
 
 ## JAG’s Information Technology Services Inc. provides professional software development and consulting services. We are known for consistently delivering quality software, while meeting the budget and time requirements of our clients.
@@ -45,3 +46,8 @@ ___
 - Passion: Developing quality software is not just scientific; it is an art. This artistic expression can only be fully realized with passion
 - Constant Learning: If we want to succeed and surpass our own expectations and milestones, we need to be constantly improving our knowledge and skills
 
+___
+
+## Contact Us
+
+Have a project in mind, or want to talk through what you need? Email us at [{{ site.footer-links.email }}](mailto:{{ site.footer-links.email }}) and we'll get back to you.

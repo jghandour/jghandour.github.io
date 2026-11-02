@@ -6,24 +6,7 @@
     {% if page.url != "/" %}{% assign page_title = page.title %}{% endif %}
     <title>{% if page_title %}{{ page_title }} – {% endif %}{{ site.name }}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
-    <meta name="author" content="{{ site.name }}"/>
-
-    {% if page.excerpt %}
-    {% assign excerpt_text = page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape %}
-    <meta name="description" content="{{ excerpt_text }}"/>
-    <meta property="og:description" content="{{ excerpt_text }}"/>
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}"/>
-    {% endif %}
-
-    <meta property="og:title" content="{{ page_title | default: site.name }}"/>
-    <meta name="twitter:title" content="{{ page_title | default: site.name }}"/>
-    <meta property="og:image" content="{{ site.url }}{{ site.avatar }}"/>
-    <meta name="twitter:card" content="summary"/>
-    {% if site.footer-links.x %}
-    <meta name="twitter:site" content="@{{ site.footer-links.x }}"/>
-    {% endif %}
+    {% seo title=false %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v={{ site.time | date: '%s' }}"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,6 +24,7 @@
             <nav>
                 <a href="{{ site.baseurl }}/">Home</a>
                 <a href="{{ site.baseurl }}/blog">Blog</a>
+                <a href="{{ site.baseurl }}/#contact-us">Contact</a>
             </nav>
         </header>
     </div>
