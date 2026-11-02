@@ -32,10 +32,17 @@ quotes.push(new Quote("Simplicity and elegance are unpopular because they requir
 quotes.push(new Quote("Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build, and test.", "Ray Ozzie"));
 //quotes.push(new Quote("The hardest single part of building a software system is deciding precisely what to build the most important function that software builders do for their clients is the iterative extraction and refinement of the product requirements. For the truth is, the clients do not know what they want. They usually do not know what questions must be answered, and they have almost never thought of the problem in the detail that must be specified.", "Fred Brooks"));
 
-function displayRandomQuote() {
-    var index = Math.round(Math.random() * (quotes.length - 1));
-    var quote = quotes[index];
+var currentIndex = -1;
 
+function displayRandomQuote() {
+    // Pick uniformly from the other quotes so "Next Quote" always changes it
+    var choices = currentIndex < 0 ? quotes.length : quotes.length - 1;
+    var index = Math.floor(Math.random() * choices);
+    if (currentIndex >= 0 && index >= currentIndex) {
+        index++;
+    }
+    currentIndex = index;
+    var quote = quotes[index];
 
     document.getElementById("quotation").innerText = quote.quotation + " - " + quote.author;
 }

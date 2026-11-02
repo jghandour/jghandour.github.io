@@ -1,4 +1,5 @@
 ---
+# Front matter tells Jekyll to compile this file to style.css
 ---
 
 @import "reset";
@@ -120,6 +121,7 @@ strong, b {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -176,8 +178,6 @@ img {
 
 .site-avatar {
   float: left;
-  #width: 70px;
-  #height: 70px;
   margin-right: 15px;
 
   @include mobile {
@@ -242,10 +242,6 @@ nav {
     font-style: italic;
   }
 
-  .comments {
-    margin-top: 10px;
-  }
-
   .read-more {
     font-size: 15px;
     float: right;
@@ -270,13 +266,17 @@ blockquote {
   margin-top: 50px;
 }
 
-#content blockquote p {
-  font-family: $defaultFont;
-  font-size: 70%;
-  line-height: 1.8;
-}
-
 .quoteNav {
+  background: none;
+  border: none;
+  padding: 0;
+  color: $orange;
+  cursor: pointer;
+  font: inherit;
   font-size: 80%;
   float: right;
+
+  &:hover, &:active {
+    text-decoration: underline;
+  }
 }
